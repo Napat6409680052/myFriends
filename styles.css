@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+h1 {
+  color: #007bff; /* Blue color for the heading */
+}
+
+button {
+  background-color: #007bff; /* Blue button background */
+  color: white; /* White text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 5px;
+}
+
+#formLayout {
+  margin-top: 5%;
+}
+
+/* Styling for the result and answer */
+#result, #ans {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e9f5ff; /* Light blue background */
+  border: 1px solid #b8daff; /* Light blue border */
+}
+
+#ans {
+  margin-top: 10px;
+  margin-left: 10px;
+}
