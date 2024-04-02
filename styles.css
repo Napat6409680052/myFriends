@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0; /* Light gray background */
+  background-color: #ffffff; /* Light gray background */
+  background: ;
 }
 
 h1 {
@@ -11,6 +12,7 @@ button {
   background-color: #007bff; /* Blue button background */
   color: white; /* White text color */
   padding: 10px 20px;
+  margin-left: 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -21,15 +23,16 @@ button:hover {
 }
 
 input[type="text"] {
-  width: 200px;
-  padding: 8px;
+  width:200px;
+  padding: 3px;
   margin: 5px;
+  margin-top: 1px;
   border: 1px solid #ccc; /* Gray border */
   border-radius: 5px;
 }
 
 #formLayout {
-  margin-top: 5%;
+  margin-top:5%;
 }
 
 /* Styling for the result and answer */
@@ -44,5 +47,4 @@ input[type="text"] {
 
 #ans {
   margin-top: 10px;
-  margin-left: 10px;
 }
