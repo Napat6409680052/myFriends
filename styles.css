@@ -1,17 +1,16 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #ffffff; /* Light gray background */
-  background: ;
+  background-color: #f8f9fa; 
 }
 
 h1 {
-  color: #007bff; /* Blue color for the heading */
+  color: #007bff; 
 }
 
 button {
-  background-color: #007bff; /* Blue button background */
-  color: white; /* White text color */
-  padding: 10px 20px;
+  background-color: #ffc107; 
+  color: #ffffff; 
+  padding: 5px 20px;
   margin-left: 10px;
   border: none;
   border-radius: 5px;
@@ -19,32 +18,32 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #ffca2c;
 }
 
 input[type="text"] {
-  width:200px;
+  width: 200px;
   padding: 3px;
   margin: 5px;
-  margin-top: 1px;
-  border: 1px solid #ccc; /* Gray border */
+  border: 1px solid #9ed2ff; 
   border-radius: 5px;
 }
 
 #formLayout {
-  margin-top:5%;
+  margin-top: 5%;
 }
 
-/* Styling for the result and answer */
 #result, #ans {
   text-align: center;
   margin-top: 20px;
   padding: 10px;
-  border-radius: 5px;
-  background-color: #e9f5ff; /* Light blue background */
-  border: 1px solid #b8daff; /* Light blue border */
+  border-radius: 10px; 
+  background-color: #f0f8ff; 
+  border: 1px solid #add8e6; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 #ans {
   margin-top: 10px;
 }
+
